@@ -1,5 +1,5 @@
 # EdgeToApp
-This repository contains source code from the EdgeToApp elective at Krisitiania University ([PGR212](https://www.kristiania.no/en/syllabus/school-of-economics-innovation-and-technology/first-cycle-degree/pgr212/from-edge-to-app/)). The topic teaches Full Stack development based on the MERN stack with data collected from an Edge Device. Unless noted otherwise, all examples are complete PlatformIO projects for the LectureFeater board.
+This repository contains source code from the EdgeToApp elective at Kristiania University ([PGR212](https://www.kristiania.no/en/syllabus/school-of-economics-innovation-and-technology/first-cycle-degree/pgr212/from-edge-to-app/)). The topic teaches Full Stack development based on the MERN stack with data collected from an Edge Device. Unless noted otherwise, all examples are complete PlatformIO projects for the LectureFeater board.
 
 The LectureFeaterh board is made especially for the topic and it's based on a ESP32-S3 with 8Mb Flash and no PSRAM. It has builtin sensors for ambient air (temperature & humidity), Light (visible + IR), Acceleration and magnetism.
 
