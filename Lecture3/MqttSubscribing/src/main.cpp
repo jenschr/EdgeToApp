@@ -78,7 +78,7 @@ void setup() {
   String clientId = "ESP32Client-"; // Create a random client ID
     clientId += String(random(0xffff), HEX);
 
-  Serial.print("\nConnecting to Wifi...");
+  Serial.print("\nConnecting to Mqtt Broker...");
   while (!mqttClient.connect(clientId.c_str(), mqtt_username, mqtt_password)) {
     Serial.print(".");
     delay(1000);
