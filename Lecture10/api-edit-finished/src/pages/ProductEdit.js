@@ -13,7 +13,7 @@ function ProductEdit(props) {
     setID(params?.id);
 
     if (params?.id) {
-      fetch("http://192.168.1.127:3001/products/" + params.id)
+      fetch("http://localhost:3001/products/" + params.id)
         .then((response) => response.json())
         .then((data) => {
           console.log(data);
@@ -44,7 +44,7 @@ function ProductEdit(props) {
   const updateProduct = () => {
     if (ID && name.length > 0 && categories.length > 0) {
       fetch(
-        "http://192.168.1.127:3001/products/" +
+        "http://localhost:3001/products/" +
           ID +
           "?name=" +
           name +
@@ -82,7 +82,7 @@ function ProductEdit(props) {
         _id: ID,
       };
 
-      fetch("http://192.168.1.127:3001/products/", {
+      fetch("http://localhost:3001/products/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -102,7 +102,7 @@ function ProductEdit(props) {
 
   const deleteProduct = () => {
     if (ID && name.length > 0 && name.length < 50) {
-      fetch("http://192.168.1.127:3001/products/" + ID, {
+      fetch("http://localhost:3001/products/" + ID, {
         method: "DELETE", // *GET, POST, PUT, DELETE, etc.
         headers: {
           "Content-Type": "application/json",
