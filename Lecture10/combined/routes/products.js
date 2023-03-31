@@ -17,7 +17,7 @@ router.post("/", async function (req, res, next) {
 });
 
 router.get("/", async function (req, res) {
-  const products = await ProductModel.find();
+  const products = await ProductModel.find().sort({ name: "asc" });
   res.status(200).json(products);
 });
 
