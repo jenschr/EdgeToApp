@@ -8,3 +8,8 @@ The hardware was not pain free as the chip was quite new when the topic started.
 
 ## Example files
 The example files are organized according to the planned structure of the topic. In reality, we spent more time than anticipated on the first lectures for the first year on the topic (2023) but adjustments will be made to the material for future semesters.
+
+## Note to self when adding files
+The React and React Native project generators will add GIT files. These don't like to be inside another project, so I must delete all .git and .gitignore files when I add them to this repo. That's not enough however. Submodules are also added by default and these are cached. After removing the git files from each project, we must then remove any cached files using:
+
+`git rm --cached Foldername`
