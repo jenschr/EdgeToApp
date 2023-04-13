@@ -5,12 +5,12 @@ To have a fully working backend for the App, [clone this repository](https://git
 
 These folders hold the progress from a React App to a React Native App. 
 
-**shopping-list-appstarter** The React app when we start the lecture
+- **shopping-list-appstarter** The React app when we start the lecture
 
-**shopping-list-app-finished** The app with the added "bonus" feature
+- **shopping-list-app-finished** The app with the added "bonus" feature
 
-**ShoppingApp-before-skinning** The app after converting it the React Native, but before we add the styling
+- **ShoppingApp-before-skinning** The app after converting it the React Native, but before we add the styling
 
-**ShoppingApp-after-skinning** The React Native app when it's finished skinning
+- **ShoppingApp-after-skinning** The React Native app when it's finished skinning
 
-**MobileShopping** the first version I did of the React Native conversion that has alternate approaches to some things.
+- **MobileShopping** the first version I did of the React Native conversion that has alternate approaches to some things.
