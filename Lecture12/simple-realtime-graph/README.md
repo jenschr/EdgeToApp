@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Small React project that reads the onboard SHT31 temperature and moisture sensor and sends the data to a MQTT server. Use with [https://github.com/jenschr/EdgeToApp/tree/main/Lecture12/EdgeEnvironmentMqtt](https://github.com/jenschr/EdgeToApp/tree/main/Lecture12/EdgeEnvironmentMqtt).
 
 ## Available Scripts
 
