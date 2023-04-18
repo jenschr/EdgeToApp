@@ -4,8 +4,11 @@ import Chart from "react-apexcharts";
 import mqtt from "mqtt/dist/mqtt";
 
 // Note that React needs Websockets, so your
-// MQTT Broker must support that
-const mqtt_server = "ws://https://test.mosquitto.org:8080";
+// MQTT Broker must support that. Kristiania
+// students can use their credentials to access
+//"ws://mqtt.toytronics.com:8883/mqtt";
+
+const mqtt_server = "ws://test.mosquitto.org:8080"; 
 const mqtt_username = "";
 const mqtt_password = "";
 
