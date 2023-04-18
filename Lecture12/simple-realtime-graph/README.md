@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Realtime Graph in a React App
 
-Small React project that reads the onboard SHT31 temperature and moisture sensor and sends the data to a MQTT server. Use with [https://github.com/jenschr/EdgeToApp/tree/main/Lecture12/EdgeEnvironmentMqtt](https://github.com/jenschr/EdgeToApp/tree/main/Lecture12/EdgeEnvironmentMqtt).
+Small React project that receives data (temperature and moisture) from a MQTT server and displays the result in an ApexChart. Use with [https://github.com/jenschr/EdgeToApp/tree/main/Lecture12/EdgeEnvironmentMqtt](https://github.com/jenschr/EdgeToApp/tree/main/Lecture12/EdgeEnvironmentMqtt).
 
 ## Available Scripts
 
